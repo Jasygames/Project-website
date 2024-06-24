@@ -1,0 +1,33 @@
+@media screen and (max-width: 640px) {
+
+    h1{
+        text-align: center;
+        margin-bottom: -0.5em;
+    }
+
+    nav ul li {
+        height: 50px;
+        text-align: center;
+        box-sizing: border-box;
+        border-bottom: black 1px; /* Not working, need to fix*/
+    }
+
+    body{
+        text-align: center;
+    }
+
+    #warhammer-image{
+        border-radius: 2.5em;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 2);
+    }
+
+    #projects ul{
+        list-style-type: none;
+    }
+
+    #soicalLinks ul{
+        list-style-type: none; /*Need to fix this*/
+        padding-left: 0em;
+    }
+
+}

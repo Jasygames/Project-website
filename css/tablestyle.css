@@ -1,0 +1,40 @@
+@media screen and (min-width:641px) and (max-width: 1023px) {
+
+    h1{
+        text-align: center;
+        margin-bottom: 0em;
+    }
+
+    nav ul li {
+        display: inline-block; /*This lists items horizontaly*/
+        border-radius: 1em;
+        height: 50px;
+        text-align: center;
+        box-sizing: border-box;
+        border: solid black;
+    }
+
+    h2{
+        margin-block-start: -0.3em;
+        margin-block-end: auto;
+    }
+
+    body{
+        text-align: center;
+    }
+
+    #warhammer-image{
+        border-radius: 2.5em;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 2);
+    }
+
+    #projects ul{
+        list-style-type: none;
+    }
+
+    #soicalLinks ul{
+        list-style-type: none; /*Need to fix this*/
+        padding-left: 0em;
+    }
+
+}

@@ -1,26 +1,69 @@
-<html>
-    <header>
-
-    </header>
-
-    <nav>
-
-    </nav>
-
-    <main>
-
-    </main>
+<!DOCTYPE html>
+<html lang="english"> <!--Wedsite is in english-->
+   
+    <head>
+        <title>About me</title>
+        <link rel="stylesheet" href="css/basestyle.css">
+        <meta charset="UTF-8">
+        <meta name="descption" content="Webpage to all my Projects/profoloio">
+        <meta name="author" content="Jasmine Antill">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 
     <body>
 
-    </body>
+        <header>
+            <h1>About Me</h1>
+        </header>
 
-    <section>
+     <nav>
+        <ul>
+            <li><a href ="Home page.html"><h2>Home</h2></a></li>
+            <li><a href ="Projects-Skills.html"><h2>Projects/Skills</h2></a></li>
+            <li><a href ="Contact-Me.html"><h2>Contact Me</h2></a></li>
+        </ul>
+     </nav>
 
-    </section>
+     <button id="changeColorButton">Change Background Color</button>
+
+     <main>
+        <div class="grid-container">
+           <div class="header1"><h3>About me</h3></div>
+           <div class="item1">
+                <p>Hi all. I'm not one for introductions but I'm Jasmine. Can either call me 
+                     Jasy as I'm usually known online. A little bit about me, I'm a <strong>huge</strong> 
+                     nerd, I'm very much into gaming,anime and painting as well as a growing interest
+                     in technology. Some favouriote games currently are Destiny 2, Final Fantasy 14 and 
+                     Resident evil 4. I've shared some images below of some warhammer models I have also 
+                     collected and painted as some non technology achivements.
+                </p>
+           </div>
+           <div class="header2">
+                <h3>Purpose of the website</h3>
+            </div>
+            <div class="item2">
+                <p>
+                    This Website is to help with showoff the skills I have learnt of point you to the projects
+                    I have worked on which shows off my understanding/progression. Over time this website will 
+                    expand over time as I push more time and energy into this passion. 
+                    Currently learning Web-devlopment and will see where the future will go.
+                </p>
+            </div>
+        </div>
+
+        <img src = "images/warhammer captains.jpg" alt="3 warhammer space marine captains from a massive multipler game" height="200px" width="300px" id="warhammer-image">
+     </main>
+
+
+    
 
     <footer>
+        <br><br>
+        <p id="timeSince"> This has been devloped from home by me, thank you for having a interest in my growing work. Fun fact it has been <span id="timeSinceSeconds">0</span> seconds since this site has stared work on.</p>
 
     </footer>
+    <script src="javascript/website_functions.js" defer></script>
+
+    </body>
     
 </html>

@@ -1,26 +1,79 @@
-<html>
-    <header>
-
-    </header>
-
-    <nav>
-
-    </nav>
-
-    <main>
-
-    </main>
+<!DOCTYPE html>
+<html lang="english"> <!--Wedsite is in english-->
+    <head>
+        <title>About me</title>
+        <link rel="stylesheet" href="css/basestyle.css">
+        <meta charset="UTF-8">
+        <meta name="descption" content="Webpage to all my Projects/profoloio">
+        <meta name="author" content="Jasmine Antill">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 
     <body>
 
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+
+     <nav>
+        <ul>
+            <li><a href ="Home page.html">Home</a></li>
+            <li><a href ="Projects-Skills.html">Projects/Skills</a></li>
+            <li><a href ="Contact-Me.html">Contact Me</a></li>
+        </ul>
+     </nav>
+
+     <button id="changeColorButton">Change Background Color</button>
+
+     <main>
+        <div id="soicalLinks">
+        <p>You can reach me on the below platforms to either get in touch or let me know if you have any interesting projects to work on.
+            <ul>
+                <li><a href ="https://github.com/Jasygames" target="_blank">Github</a></li>
+                <li><a href ="https://www.linkedin.com/in/jasmine-antill-358444267/" target="_blank">Linkedin</a></li>
+                <li><a href ="mailto:septimus.gg@gmail.com">Email</a></li>
+            </ul>
+        </p>  
+        </div>
+        <p>Or alternativly if you leave me your details below I will get back to you as soon avliable.</p>
+     </main>
+
+        <form method="POST">
+            <label for="frist_name">First Name:</label>
+            <input type="text" name="first_name" minlength="3" id="frist_name" required><br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="Last_name" minlength="3" id="last_name" required><br>
+
+            <label for="phoneNumber">Phone number</label>
+            <input type="number" name="phoneNumber" id="phoneNumber" maxlength="11"><br>
+
+            <lable for="email">Email</lable>
+            <input type="text" name="email" id="email" minlength="10"><br>
+
+            <label for="socialMedia">Social Media:</label>
+            <textarea value="Enter social medial details here" id="socialMedia" rows="2" cols="50" value="ie linkedin,github, instagram ect"></textarea><br>
+
+            <label for="preferContact">Prefered way of getting contact</label><br>
+            <label for="preferContact">Phone</label>
+            <input type="radio" name="preferContact" id="preferContact" required>
+            <label for="preferContact">Email</label>
+            <input type="radio" name="preferContact" id="preferContact" required>
+            <label for="preferContact">Social Media</label>
+            <input type="radio" name="preferContact" id="preferContact" required><br>
+
+            <input type="submit" value="submit" id="submit">
+        </form>
+
+    
+
     </body>
-
-    <section>
-
-    </section>
-
+    
     <footer>
+        <br><br>
+        <p id="timeSince"> This has been devloped from home by me, thank you for having a interest in my growing work. Fun fact it has been <span id="timeSinceSeconds">0</span> seconds since this site has stared work on.</p>
 
     </footer>
+    <script src="javascript/website_functions.js" defer></script>
     
 </html>
